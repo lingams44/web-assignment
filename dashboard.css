@@ -1,0 +1,27 @@
+Copybody.light-theme {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+body.dark-theme {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+body.light-theme .card {
+    background-color: white;
+    color: #212529;
+}
+body.dark-theme .card {
+    background-color: #343a40;
+    color: white;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 0.5rem;
+    }
+}
+
